@@ -31,9 +31,6 @@ export function find_weaknes(sequence: number[],value: number): number | undefin
             if (akkumulatet===value){
                 return Math.max(...values)+Math.min(...values)
             }
-            if (akkumulatet>value){
-                break
-            }
         }
     }
     return 0
